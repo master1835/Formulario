@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario</title>
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+	<div class="contenedor">
+		<h2>Indicar datos de orden</h2>
+		<form action="carga_encuesta.php"  method="post" id = "datos_svc">
+			<div class="columna_izq">
+				<fieldset>
+					<div class="contain_label">
+						<label>OT:</label>
+						<input class="campo_form1" type="text" name="ot">
+					</div>
+					<div class="contain_label">
+						<label>Fecha:</label>
+						<input class="campo_form1" type="text" name="fecha">
+					</div>
+					<div class="contain_label">
+						<label>Base:</label>
+						<input class="campo_form1" type="text" name="base">
+					</div>
+					<div class="contain_label">
+						<label>Movil:</label>
+						<input class="campo_form1" type="text" name="movil">
+					</div>
+				</fieldset>
+				
+			</div>
+			<div class="columna_der">
+				<fieldset>
+					<div class="contain_label">
+						<label>Supervisor:</label>
+						<input class="campo_form1" type="text" name="supervisor">
+					</div>	
+					<div class="contain_label">
+						<label>Tecnico 1:</label>
+						<input class="campo_form1" type="text" name="tecnico1">
+					</div>
+					<div class="contain_label">
+						<label>Tecnico 2:</label>
+						<input class="campo_form1" type="text" name="tecnico2">
+					</div>
+					<div class="contain_label">
+						<label>Motivo:</label>
+						<input class="campo_form1" type="text" name="motivo">
+					</div>
+				</fieldset>
+			</div>
+			<input type="submit" class="boton" name="submit" value="Continuar" />
+		</form>
+	</div>
+	<input type="button" value="boton 1">
+	<input type="submit" value="boton 2">
+	<div class="encuesta" id="">
+		<form action="" id = "encuesta_svc"></form>
+	</div>
+
+</body>
+</html>
